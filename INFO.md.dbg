@@ -1,0 +1,11 @@
+1.cd C:/sf/ # перейти в паку.
+2.git init # создать новый проект 
+3.git clone https://github.com/AlekseyTestQA/skillfactory.git # клонировать удаленный репозиторий в одноименную директорию
+4.git status # показать состояние репозитория 
+5.git diff   # сравнить рабочую директорию и индекс
+6.git add .  # добавить в индекс все новые, изменённые, удалённые файлы 
+7.git reset  # убрать из индекса все добавленные в него изменения
+8.git mv text.txt test_new.txt # переименовать файл «text.txt» в «test_new.txt»
+9.git mv readme_new.md folder/ # переместить файл readme_new.md в директорию folder/
+10.git commit -m "Name of commit" # зафиксировать в коммите проиндексированные изменения
+
